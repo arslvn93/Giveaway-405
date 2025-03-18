@@ -1,30 +1,29 @@
-
 // This file centralizes all editable content for the giveaway page
 
 // Prize section
 export const prizeImages = [
-  "https://images.unsplash.com/photo-1552767059-ce182ead6c1b?q=80&w=1000", // Main cheese board
-  "https://images.unsplash.com/photo-1452195100486-9cc805987862?q=80&w=500", // Cheese assortment
-  "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?q=80&w=500", // Olives and cheese
+  "https://images.unsplash.com/photo-1546519638-68e109498ffc?ixid=M3w3MjQzNjF8MHwxfHNlYXJjaHwxfHxiYXNrZXRiYWxsJTIwfGVufDB8fHx8MTc0MjI0NDc5M3ww&ixlib=rb-4.0.3",
+  "https://images.unsplash.com/photo-1627627256672-027a4613d028?ixid=M3w3MjQzNjF8MHwxfHNlYXJjaHwyfHxiYXNrZXRiYWxsJTIwfGVufDB8fHx8MTc0MjI0NDc5M3ww&ixlib=rb-4.0.3", 
+  "https://images.unsplash.com/photo-1574623452334-1e0ac2b3ccb4?ixid=M3w3MjQzNjF8MHwxfHNlYXJjaHwzfHxiYXNrZXRiYWxsJTIwfGVufDB8fHx8MTc0MjI0NDc5M3ww&ixlib=rb-4.0.3", 
 ];
 
 export const prizeContent = {
-  title: "Gourmet Cheese Board Gift Basket",
-  description: "This curated gift basket is perfect for an at-home charcuterie night. Featuring a handcrafted wooden cheese board, assortment of fine cheeses, olives, sea salt pretzels, chocolate bark, and a premium knife set—everything you need for a delicious evening with your loved ones.",
+  title: "$100 Family Barber Shop Gift Card",
+  description: "Win a $100 gift card to our featured local barber shop—the perfect treat for a family day out. Enjoy a stylish haircut for your little ones or a fresh look for yourself, all while supporting a cherished community business.",
   features: [
-    "Assorted gourmet cheeses & olives - expertly selected and paired for rich, balanced flavor",
-    "Sea salt pretzels & chocolate bark - the perfect mix of crunchy, salty, and sweet indulgence",
-    "Handcrafted wooden cheese tray with premium knife set for effortless serving",
-    "Free delivery directly to your door in Vaughan",
-    "Perfect for a cozy night in with family and friends",
+    "Fresh new styles for the whole family",
+    "Experience excellence at a beloved local barber shop",
+    "Support a community favorite",
+    "Simple entry process, no purchase necessary",
+    "Exclusive offer available from March 19 to April 7, 2025",
   ],
-  value: "$175",
+  value: "$100",
 };
 
 // Header section
 export const headerContent = {
-  title: "Win a Curated Cheese Board Gift Basket!",
-  description: "Perfect for Vaughan families looking for a cozy night in! Enter for a chance to win our exclusive cheese board package valued at $175. No purchase necessary.",
+  title: "Win a $100 Family Gift Card to [Local Barber Shop Name]!",
+  description: "Treat your family to a fresh new look and a fun day out! Enter now for your chance to win a $100 gift card to our featured local barber shop. No purchase necessary.",
   ctaText: "Enter Now",
   heroImage: prizeImages[0],
   secondaryImage: prizeImages[1], // Add secondary image for the header
@@ -32,7 +31,7 @@ export const headerContent = {
 
 // Navigation section
 export const navigationContent = {
-  title: "Cheese Board Giveaway",
+  title: "Family Gift Card Giveaway",
   links: [
     { name: 'Home', href: '#' },
     { name: 'Prize Details', href: '#prize' },
@@ -45,12 +44,12 @@ export const navigationContent = {
 // How to Enter section
 export const howToEnterContent = {
   title: "How to Enter",
-  description: "Getting started is easy! Follow these simple steps to enter our giveaway.",
+  description: "Treat your family to a stylish experience! Follow these simple steps to enter our $100 gift card giveaway.",
   steps: [
     {
       icon: "Mail",
       title: "Fill Out the Form",
-      description: "Enter your email address and name in the form and submit it."
+      description: "Enter your name and email address in the form and submit it."
     },
     {
       icon: "Share2",
@@ -77,7 +76,7 @@ export const howToEnterContent = {
     { 
       icon: "Gift", 
       title: "Premium Prize", 
-      desc: "Valued at $175" 
+      desc: "Valued at $100" 
     }
   ],
   formLabels: {
@@ -95,7 +94,7 @@ export const howToEnterContent = {
     title: "Entry Submitted!",
     description: "Check your email to confirm your entry."
   },
-  currentEntries: 482
+  currentEntries: 0
 };
 
 // Rules section
@@ -105,27 +104,27 @@ export const rulesContent = {
   rules: [
     {
       question: "Who is eligible to enter?",
-      answer: "Anyone 18 years or older residing in the Vaughan area can enter this giveaway.",
+      answer: "Anyone 18 years or older located in our community can enter this giveaway."
     },
     {
       question: "How long does the giveaway run?",
-      answer: "This giveaway runs until February 2nd, 2025, as indicated by the countdown timer.",
+      answer: "This giveaway runs from March 19, 2025 to April 7, 2025, as indicated by the countdown timer."
     },
     {
       question: "How will the winner be selected?",
-      answer: "The winner will be selected randomly from all valid entries. We use a certified random selection tool to ensure fairness.",
+      answer: "The winner will be selected randomly from all valid entries. We use a certified random selection tool to ensure fairness."
     },
     {
       question: "When and how will the winner be notified?",
-      answer: "The winner will be notified via email within 48 hours after the giveaway ends. They must respond within 72 hours to claim their prize.",
+      answer: "The winner will be notified via email within 48 hours after the giveaway ends. They must respond within 72 hours to claim their prize."
     },
     {
       question: "How many times can I enter?",
-      answer: "Each person may enter once. Additional entries can be earned through sharing on social media (up to 3 additional entries).",
+      answer: "Each person may enter once. Additional entries can be earned through sharing on social media (up to 3 additional entries)."
     },
     {
       question: "Is my information secure?",
-      answer: "Yes, we take privacy seriously. Your information will only be used for this giveaway and will not be shared with third parties.",
+      answer: "Yes, we take privacy seriously. Your information will only be used for this giveaway and will not be shared with third parties."
     },
   ],
   imageUrl: "https://images.unsplash.com/photo-1607344645866-009c320b63e0?q=80&w=800",
@@ -143,11 +142,11 @@ export const rulesContent = {
 // Contact section
 export const contactContent = {
   title: "Get In Touch",
-  email: "info@rapsgiveaway.com",
-  phone: "416-555-1234",
+  email: "arslan@salesgenius.co",
+  phone: "4166554850",
   brokerage: {
-    name: "Toronto Sports Entertainment",
-    address: "123 Arena Blvd, Toronto"
+    name: "Sales Genius Realty",
+    address: "123 Main Street, Toronto"
   },
   disclaimer: "This site is not intended to solicit buyers or sellers who are currently under contract.",
   copyright: "Copyright 2025. All rights reserved",
@@ -156,24 +155,24 @@ export const contactContent = {
 
 // Footer section
 export const footerContent = {
-  aboutText: "The Raptors Giveaway specializes in offering exclusive prizes to our dedicated fans.",
-  email: "info@rapsgiveaway.com",
-  phone: "416-555-1234",
+  aboutText: "The Sales Genius Giveaway specializes in offering exclusive community deals and family-friendly prizes.",
+  email: "arslan@salesgenius.co",
+  phone: "4166554850",
   quickLinks: ["Home", "About", "Listings", "Contact", "Privacy Policy"],
   newsletterText: "Subscribe to our newsletter for the latest updates on giveaways and exclusive offers.",
   brokerage: {
-    name: "Toronto Sports Entertainment",
-    address: "123 Arena Blvd, Toronto"
+    name: "Sales Genius Realty",
+    address: "123 Main Street, Toronto"
   },
   disclaimer: "This site is not intended to solicit buyers or sellers who are currently under contract.",
   copyright: "Copyright 2025. All rights reserved",
-  company: "The Sky Group Real Estate",
+  company: "Sales Genius Realty",
   privacyPolicyText: "Privacy Policy"
 };
 
 // Countdown
 export const countdownContent = {
-  endDate: new Date("February 2, 2025") 
+  endDate: new Date("April 7, 2025")
 };
 
 // Color scheme configuration for the entire giveaway
